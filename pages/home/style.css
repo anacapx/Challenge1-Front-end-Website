@@ -1,0 +1,82 @@
+
+.hero-section {
+    width: 1110px;
+    height: 600px;
+
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero-section__content {
+    width: 445px;
+    height: 357px;    
+    background-color: #FAFAFA;
+}
+
+.hero-section__title {
+    padding: 55px 28px;
+}
+
+.btn-primary {
+    background-color: #203A4C;
+    
+    height: 48px;
+    width: 200px;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary__img {
+    height: 48px;
+    width: 48px;
+    padding: 16px;
+}
+
+
+.btn-primary__text {
+    text-align: center;
+    width: 152px;
+}
+
+
+.btn-primary:hover {
+    background-color: #5FB4A2;
+}
+
+
+.sobre-section {
+    height: 600px;
+}
+
+
+
+
+.sobre-mim__description {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+.button_portfolio {
+    padding-right: 28px;
+    padding-left: 28px;
+    align-self: center;
+}
+
+
+
+

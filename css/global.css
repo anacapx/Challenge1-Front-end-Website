@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+button {
+    all: unset;
+}
+
+input {
+    all:unset;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;    
+    background-color: #F2F2F2; 
+}
+
+
+h1, h2, h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    color: #33323D;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;    
+    letter-spacing: -0.36px;
+}
+
+
+h3 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;    
+    letter-spacing: -0.29px;    
+}
+
+
+
+.font-body-1, .font-body-2{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.font-body-1 {
+    font-size: 16px;
+}
+
+.font-body-2{
+    font-size: 15px;
+}
+
+.color-cyan {
+    color: #5FB4A2;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.border {
+    border-top: 1px solid hsla(245, 11%, 22%, 0.15);   
+    border-bottom: 1px solid hsla(245, 11%, 22%, 0.15);
+}
+
+
+.container {
+    width: 1440px;
+    background-color: #FAFAFA;   
+}
+
+.content-container {    
+    padding: 65px 165px 0px 165px;
+}
+
+
+.header__link--not-selected, .header__link--selected {
+    text-decoration: none;    
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+
+.header__link--selected {
+    color: #5FB4A2;
+}
+
+.header__link--not-selected {
+    color: #33323D;
+}
+
+.descricao-projeto-aside {
+    height: 498px;
+}
+
+.main-section {
+    height: 1192px;
+}
+
+.descricao-projeto-aside,
+.entre-em-contato-section__title {
+    width: 350px;
+}
+
+.main-section, 
+.entre-em-contato-section__description, 
+.contato-section__form {
+    width: 635px;
+}
+
+
+.secondary_button1, .secondary_button2 {
+    text-decoration: none;    
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    box-sizing: border-box;
+}
+
+
+.secondary_button1 {
+    font-weight: 100;    
+    color: #33323D;    
+    border: 1px solid #33323D;        
+}
+
+
+.secondary_button2 {
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: #203A4C;    
+}
+
+.secondary_button1:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+.secondary_button2:hover {
+    background-color: #5FB4A2;
+}
+.button_enviar {
+    width: 200px;
+    text-align: center;
+}
+
+.button_visitar {
+    width: 178px;
+    text-align: center;
+}
+
+.button_contato {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.label {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.input, .input-mensagem {
+    background-color: hsl(245, 11%, 22%, 0.1);
+    mix-blend-mode: normal;
+    color:black;
+    font-family: 'Public Sans', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.input {
+    height: 48px;
+}
+
+.input-mensagem {
+    height: 96px;
+}
+
+.input:focus, .input-mensagem:focus {
+    border: 2px solid #000000;
+    
+}
+
+
+
+.footer {
+    background-color: hsla(245, 10%, 22%, 1);
+    height: 80px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.footer__ul {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #cab6b6;
+    margin-right: 45px;
+}
+
+
+

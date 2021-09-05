@@ -1,0 +1,32 @@
+
+.section-container {
+    width: 1015px;
+    margin:auto;
+    
+}
+
+.manage-section, .bookmark-section, .insure-section, .fylo-section {
+    
+    height: 500px;
+}
+
+.manage-section__img, .bookmark-section__img, .insure-section__img, .fylo-section__img {
+    width: 540px;
+    height: 500px;
+}
+
+.manage, .bookmark, .insure, .fylo {
+    width: 350px;
+    height: 500px;
+}
+
+.button_ver-projeto {
+    padding-right: 38px;
+    padding-left: 38px;
+    align-self: flex-start;
+}
+
+
+.fylo-section {
+
+}
